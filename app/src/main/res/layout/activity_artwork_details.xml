@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F0E8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artwork Details"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artwork Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvDetailArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvDetailYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creation Year"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Gallery"/>
+
+    <Button
+        android:id="@+id/btnVisitWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit Website"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
